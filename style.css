@@ -1,0 +1,537 @@
+/* Importação da fonte movida para o início do CSS */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/* Estilo global */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #34353b;
+    color: #fbfbfb;
+}
+
+/* Header */
+header {
+    height: 100vh;
+    padding: 20px 5%;
+    background-image: url(asset/model_bw.jpg);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    width: 90%;
+    z-index: 99;
+}
+
+header nav img {
+    height: 5vw; /* Utilizando porcentagem para ser responsivo */
+    width: 5vw; /* Utilizando porcentagem para ser responsivo */
+    object-fit: contain;
+    filter: invert(70%) sepia(96%) saturate(558%) hue-rotate(359deg)
+        brightness(103%) contrast(106%);
+}
+
+header nav ul {
+    display: flex;
+    margin: 0 2vw; /* Utilizando porcentagem para ser responsivo */
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+header nav ul li a {
+    color: #98999a;
+    text-decoration: none;
+    transition: all ease 0.5s;
+}
+
+header nav ul li a:hover {
+    color: #fbfbfb;
+}
+
+header nav ul li .active {
+    color: #fbfbfb;
+}
+
+.landing {
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+    height: auto; /* Altura automática para se ajustar ao conteúdo */
+    padding: 10vh 5%; /* Adicionado preenchimento e ajuste para ser responsivo */
+}
+
+.landing .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centralizando horizontalmente */
+    text-align: center; /* Centralizando o texto */
+    margin-bottom: 5vh; /* Espaçamento inferior */
+}
+
+.landing .intro h3 {
+    color: #fbfbfb;
+    font-weight: 400;
+    font-size: 32px;
+    margin-left: 10vw;
+    font-size: 2rem; /* Reduzindo o tamanho da fonte */
+    margin: 0; /* Removendo margens para melhorar a aparência */
+}
+
+.landing .intro h3 span {
+    color: #fec86a;
+    font-weight: 600;
+    font-size: 3.5rem;
+    font-size: 2.5rem; /* Reduzindo o tamanho da fonte */
+}
+
+.intro button {
+    height: 3rem; /* Altura fixa para o botão */
+    width: 10rem; /* Largura fixa para o botão */
+    margin-top: 2.5vh;
+    margin-left: 10vw;
+    background-color: transparent;
+    border: 2px solid #fec86a;
+    border-radius: 8px;
+    color: #fec86a;
+    font-size: 1rem; /* Reduzindo o tamanho da fonte */
+    transition: all ease 0.5s;
+}
+
+.intro button:hover {
+    background-color: #fec86a;
+    color: #34353b;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh; /* Reduzindo o espaçamento entre os ícones */
+    align-items: center;
+    margin-top: 50vh;
+}
+
+.socials .line {
+    background-color: #fec86a;
+    height: 15vh;
+    width: 2.5px;
+}
+
+.socials i {
+    color: #fbfbfb;
+    font-size: 2.5rem; /* Reduzindo o tamanho da fonte */
+    margin: 1vh 0; /* Adicionando espaçamento ao redor dos ícones */
+}
+/* About*/
+.about {
+    height: auto; /* Altura automática para se ajustar ao conteúdo */
+    width: 100vw;
+    padding: 10vh 5%; /* Adicionado preenchimento e ajuste para ser responsivo */
+    display: flex;
+    flex-direction: column; /* Empilhando os elementos em telas menores */
+    align-items: center;
+}
+
+.about h1 {
+    font-size: 3rem; /* Reduzindo o tamanho da fonte para telas menores */
+    font-weight: 700;
+    color: #fbfbfb;
+    font-family: "Libre Baskerville", serif;
+    margin-bottom: 2vh; /* Adicionando espaçamento inferior */
+}
+
+.about .description {
+    display: flex;
+    flex-direction: column; /* Empilhando os elementos em telas menores */
+
+    align-items: center;
+}
+
+.about .description .line {
+    height: 2.5px;
+    width: 50%; /* Largura ajustável */
+    max-width: 400px; /* Largura máxima */
+    background-color: #fec86a;
+    margin: 1vh 0 2vh; /* Adicionando espaçamento vertical */
+}
+
+.about .description p {
+    color: #fbfbfb;
+    font-size: 1.2rem; /* Reduzindo o tamanho da fonte para telas menores */
+    text-align: center; /* Centralizando o texto */
+}
+
+.about .description p span {
+    color: #fec86a;
+}
+/* Skills*/
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh 5%; /* Adicionado preenchimento e ajuste para ser responsivo */
+}
+
+.skills h1 {
+    font-size: 3rem; /* Reduzindo o tamanho da fonte para telas menores */
+    font-weight: 700;
+    color: #fbfbfb;
+    font-family: "Libre Baskerville", serif;
+    margin-bottom: 2vh; /* Adicionando espaçamento inferior */
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vh; /* Reduzindo a margem superior para melhorar a aparência */
+    gap: 2.5vh;
+}
+
+.skill-card {
+    height: 20vw;
+    width: 20vw;
+    background-color: #3d3e42;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vh;
+    transition: all ease 0.5s;
+}
+
+.skill-card:hover {
+    background-color: #fec86a;
+}
+
+.skill-card img {
+    height: 7.5vw;
+    width: 7.5vw;
+    object-fit: contain;
+}
+
+.skill-card h2 {
+    font-size: 1.5rem; /* Reduzindo o tamanho da fonte para telas menores */
+    font-weight: 400;
+    color: #fbfbfb;
+    text-align: center; /* Centralizando o texto */
+}
+
+/*Portfolio*/
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio h1 {
+    font-size: 56px;
+    /* Usando unidades de viewport (vw) para o tamanho da fonte */
+    font-weight: 700;
+    color: #fbfbfb;
+    font-family: "Libre Baskerville", serif;
+    top: 50%;
+    /* Ajustei para centralizar verticalmente */
+    left: 50%;
+    margin: 0;
+    /* Removi a margem para melhorar o posicionamento */
+    margin-left: 3%;
+
+    position: center;
+    color: #fbfbfb;
+}
+
+.portfolio-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    flex-direction: column;
+    column-gap: 3rem;
+    row-gap: 4rem;
+    gap: 2.5vw;
+    margin-top: 5vw;
+}
+.portfolio-cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+    gap: 2.5vh;
+}
+.portfolio-card {
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    max-width: 100%;
+    /* Certificando-se de que a largura não excede 100% da largura da tela */
+    background-color: #3d3e42;
+    border-radius: 2vw;
+    /* Usando unidades de viewport (vw) para a borda */
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vw;
+    transition: all ease 0.5s;
+}
+
+.portfolio-card img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.portfolio-card .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+    height: 30vw;
+    width: 30vw;
+    max-width: 100%;
+    /* Certificando-se de que a largura não excede 100% da largura da tela */
+    background-color: #34353ba2;
+    align-items: center;
+    justify-content: center;
+    padding: 2.4vw;
+    /* Usando unidades de viewport (vw) para o preenchimento */
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.portfolio-card .overlay h3 {
+    color: #fbfbfb;
+    font-size: 24px;
+}
+
+.portfolio-card .overlay p {
+    color: #fbfbfb;
+    font-size: 15px;
+    text-align: center;
+}
+
+.portfolio-card .overlay button {
+    height: 3.6vw;
+    width: 20.8vw;
+    background-color: #fec86a;
+    border: 0.1vw solid #fec86a;
+    border-radius: 0.8vw;
+    /* Usando unidades de viewport (vw) para a borda */
+    color: #34353b;
+    font-size: 1.5vw;
+    /* Usando unidades de viewport (vw) para o tamanho da fonte */
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.portfolio-card .overlay:hover {
+    opacity: 1;
+}
+
+.portfolio button {
+    margin-top: 1.5vw;
+    height: 4.8vw;
+    /* Usando unidades de viewport (vw) para a altura do botão */
+    width: 14.4vw;
+    /* Usando unidades de viewport (vw) para a largura do botão */
+    background-color: #fec86a;
+    border: 0.1vw solid #fec86a;
+    border-radius: 0.8vw;
+    /* Usando unidades de viewport (vw) para a borda */
+    color: #34353b;
+    font-size: 1.6vw;
+    /* Usando unidades de viewport (vw) para o tamanho da fonte */
+    font-weight: 500;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.portfolio button:hover {
+    background-color: #cc9e4e;
+}
+
+/* Experience */
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.darker-div {
+    background-color: #34353a;
+    width: 100%;
+    height: 10vh;
+}
+
+.experience h1 {
+    font-size: 56px;
+    /* Usando unidades de viewport (vw) para o tamanho da fonte */
+    font-weight: 700;
+    color: #fbfbfb;
+    font-family: "Libre Baskerville", serif;
+    top: 50%;
+    /* Ajustei para centralizar verticalmente */
+    left: 50%;
+    margin: 0;
+    /* Removi a margem para melhorar o posicionamento */
+    margin-left: 3%;
+
+    position: center;
+    color: #fbfbfb;
+}
+
+.lighter-div {
+    background-color: #3d3e42;
+    width: 100%;
+    padding: 5% 10%;
+    /* Ajustei o padding para ser mais responsivo */
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
+    /* Reduzi o espaçamento entre elementos */
+}
+
+.lighter-div .exp {
+    height: auto;
+    /* Alterei para altura automática */
+    width: 100%;
+    max-width: 50vw;
+    /* Adicionei uma largura máxima para evitar esticamento em telas maiores */
+    position: relative;
+    margin-left: auto;
+    /* Centralizei à direita */
+    margin-right: auto;
+    /* Centralizei à direita */
+}
+
+.exp h2 {
+    color: #fbfbfb;
+    font-size: 2rem;
+    /* Ajustei o tamanho da fonte para ser responsivo */
+    font-weight: 400;
+}
+
+.exp h2::before {
+    content: "";
+    height: 1rem;
+    /* Ajustei o tamanho do círculo para ser responsivo */
+    width: 1rem;
+    /* Ajustei o tamanho do círculo para ser responsivo */
+    color: #fec86a;
+    background-color: #fec86a;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 0;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 2px #fec86a;
+    /* Ajustei a sombra para ser mais sutil */
+}
+
+.exp-desc::before {
+    content: "";
+    height: 5rem;
+    /* Ajustei a altura da linha para ser responsivo */
+    width: 1px;
+    background-color: #fbfbfb;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 0;
+}
+
+.exp-desc h3 {
+    color: #fbfbfb;
+    font-size: 1.5rem;
+    /* Ajustei o tamanho da fonte para ser responsivo */
+    font-weight: 400;
+    margin: 10px 0;
+    margin-left: 3%;
+}
+
+.exp-desc p {
+    color: #fbfbfb;
+    font-size: 1rem;
+    /* Ajustei o tamanho da fonte para ser responsivo */
+    font-weight: 400;
+    margin-left: 3%;
+}
+
+.contact-me {
+    width: 100vw;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-me h1 {
+    font-size: 56px;
+    color: #fbfbfb;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+}
+
+.contact {
+    display: flex;
+    gap: 24px;
+}
+
+.contact-card {
+    background-color: #fec86a;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    margin-top: 7.5vh;
+}
+.contact-card a button {
+    background-color: #fec86a;
+    border: 1px solid #fec86a;
+    color: #fbfbfb;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.contact-card a button:hover {
+    background-color: #cc9e4e;
+}
+.iframe {
+    position: left;
+    justify-content: left;
+}
