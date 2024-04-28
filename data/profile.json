@@ -1,0 +1,88 @@
+{
+  "name": "Kelvin Clenderson",
+  "photo": "https://avatars.githubusercontent.com/u/96599284?s=400&u=873627e970b04da0391097390cfb44c764ec5a88&v=4",
+  "job": "Backend Developer",
+  "location": "Belo Horizonte - MG",
+  "phone": "(31) 98355-2544",
+  "email": "Kelvinclenderson95@outlook.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Nodejs",
+        "logo": "https://raw.githubusercontent.com/KelvinClenderson/Dio-portfolioJs/main/data/imgs/nodejs.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/KelvinClenderson/Dio-portfolioJs/main/data/imgs/js.png"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/KelvinClenderson/Dio-portfolioJs/main/data/imgs/react.png"
+      },
+      {
+        "name": "CSharp",
+        "logo": "https://raw.githubusercontent.com/KelvinClenderson/Dio-portfolioJs/main/data/imgs/csharp.png"
+      },
+      {
+        "name": "DotNet",
+        "logo": "https://raw.githubusercontent.com/KelvinClenderson/Dio-portfolioJs/main/data/imgs/dotnet.png"
+      },
+      {
+        "name": "Miscrosoft Sql Server",
+        "logo": "https://raw.githubusercontent.com/KelvinClenderson/Dio-portfolioJs/main/data/imgs/microsoftSqlServer.png"
+      }
+    ],
+    "softSkills": [
+      "Comprometimento com resultados",
+      "Empatia",
+      "Flexibilidade",
+      "Liderança",
+      "Organização",
+      "Trabalho em equipe"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (intermediário)",
+    "Espanhol (intermediário)"
+  ],
+  "portfolio": [
+    {
+      "name": "Pokedex",
+      "url": "https://github.com/KelvinClenderson/Pokedex-Js",
+      "github": true
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://github.com/KelvinClenderson/Dio-portfolioJs",
+      "github": true
+    },
+    {
+      "name": "Bot Whatsapp ",
+      "url": "https://github.com/KelvinClenderson/Bot_Whatsapp",
+      "github": true
+    },
+    {
+      "name": "Api Movies",
+      "url": "https://github.com/KelvinClenderson/Api_Movies",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Mobile Developer / CAPYS IT SOLUTIONS",
+      "period": "Maio/2023 - Novembro/2023",
+      "description": "Realizei correções de bugs e aprimoramentos em aplicativos no Ionic Framework, utilizando JavaScript, AngularJS, HTML e CSS no front-end. No back-end, trabalhei com C# no DotNet e executei consultas no Banco de Dados MS SQL Server."
+    },
+    {
+      "name": "Analista de suporte em Ti N1 - N2 / INCONTEC CONSULTORIA",
+      "period": "2022 - 2023",
+      "description": "Responsável pelo suporte técnico N1 e N2 na Implantação do CRM CAPYS, identifiquei e classifiquei erros, distribuindo-os para a equipe de desenvolvimento. Também criei a API do WhatsApp CAPYS em colaboração com o Twilio, gerenciando projetos relacionados. Além disso, conduzi treinamentos terceirizados para clientes e novos funcionários, e fiz apresentações do CRM CAPYS para novos clientes com a equipe comercial da INCONTEC."
+    },
+    {
+      "name": "Analista de suporte em Ti N1 - N2 / TELEPERFOMANCE",
+      "period": "2019 - 2020",
+      "description": "Responsável por abrir atendimentos de acordo com a demanda dos clientes BB Seguro e Mafre Seguros, realizei a distribuição eficiente de chamados e o treinamento de novos funcionários. Também conduzi videochamadas com clientes para esclarecer dúvidas sobre seus seguros e negociar acordos."
+    }
+  ]
+}
