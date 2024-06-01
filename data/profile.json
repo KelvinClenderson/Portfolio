@@ -3,7 +3,7 @@
   "photo": "https://avatars.githubusercontent.com/u/96599284?s=400&u=873627e970b04da0391097390cfb44c764ec5a88&v=4",
   "job": "Backend Developer",
   "location": "Belo Horizonte - MG",
-  "phone": "+55 (11) 2249-1340",
+  "phone": "+55 (12) 9 9194-4288",
   "email": "Kelvinclenderson95@outlook.com",
   "skills": {
     "hardSkills": [
@@ -48,23 +48,38 @@
   ],
   "portfolio": [
     {
-      "name": "Pokedex",
-      "url": "https://github.com/KelvinClenderson/Pokedex-Js",
+      "name": "Portfolio Daniele Cardoso - Front-end",
+      "url": "https://github.com/KelvinClenderson/Portfolio-DanieleArq",
       "github": true
     },
     {
-      "name": "Portfolio",
-      "url": "https://github.com/KelvinClenderson/Portfolio",
+      "name": "Geek Max - Front-end",
+      "url": "https://github.com/KelvinClenderson/Geek-Max",
       "github": true
     },
     {
-      "name": "Bot Whatsapp ",
+      "name": "Bot Whatsapp - Back-end",
       "url": "https://github.com/KelvinClenderson/Bot_Whatsapp",
       "github": true
     },
     {
-      "name": "Api Movies",
-      "url": "https://github.com/KelvinClenderson/Api_Movies",
+      "name": "Podcast_Manager - Back-end",
+      "url": "https://github.com/KelvinClenderson/Podcast_Manager",
+      "github": true
+    },
+    {
+      "name": "Mario_Kart - Back-end",
+      "url": "https://github.com/KelvinClenderson/Mario_Kart",
+      "github": true
+    },
+    {
+      "name": "Shopee_Cart - Back-end",
+      "url": "https://github.com/KelvinClenderson/Shopee_Cart",
+      "github": true
+    },
+    {
+      "name": "Gerador_QrCode - Back-end",
+      "url": "https://github.com/KelvinClenderson/Gerador_QrCode",
       "github": true
     }
   ],
